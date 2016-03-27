@@ -1,0 +1,184 @@
+/*SCSS*/
+header {
+  background: url("../../img/header-bg.jpg");
+  background-repeat: none;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #fff;
+  height: 100vh; }
+  header nav {
+    padding-top: 30px;
+    background-color: transparent !important;
+    border: black !important; }
+    header nav .navbar-brand {
+      font-size: 25px;
+      font-family: 'Kaushan Script';
+      color: #F4CF35 !important; }
+    header nav li, header nav a {
+      font-family: 'Montserrat';
+      color: white !important; }
+  header h3 {
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: 'Droid Serif';
+    font-style: italic; }
+  header h1 {
+    font-weight: 700;
+    font-size: 70px;
+    font-family: 'Montserrat';
+    margin-bottom: 50px; }
+  header .tell {
+    font-family: 'Montserrat';
+    background-color: #F4CF35;
+    padding: 20px;
+    margin: auto;
+    width: 160px; }
+
+/*SECTION*/
+section {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  section h2 {
+    text-align: center;
+    margin-top: 50px !important;
+    font-family: 'Montserrat';
+    color: black;
+    font-weight: 700; }
+  section p {
+    font-family: 'Droid Serif';
+    text-align: center; }
+  section .fa {
+    padding: 15px;
+    border-radius: 100%;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    background-color: #F4CF35; }
+  section h4 {
+    font-family: 'Montserrat';
+    color: black;
+    font-weight: 700; }
+
+.grey {
+  padding-top: 100px;
+  background-color: #F7F7F7;
+  padding-bottom: 100px; }
+  .grey .row {
+    margin-top: 50px; }
+  .grey .white {
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 15px; }
+    .grey .white img {
+      width: 100%; }
+    .grey .white p {
+      font-style: italic;
+      margin: 0; }
+  .grey h5 {
+    font-family: 'Montserrat';
+    color: black;
+    font-weight: 700;
+    margin: auto;
+    text-align: center; }
+  .grey .social .fa {
+    padding: 15px;
+    border-radius: 100%;
+    color: white;
+    background-color: #000000;
+    font-size: 15px !important;
+    margin-right: 20px; }
+  .grey .pf {
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+    width: 60%; }
+
+.logo {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center; }
+  .logo img {
+    width: 250px; }
+
+.form {
+  background-color: #000000; }
+  .form h2, .form p {
+    color: #FFFFFF; }
+  .form form {
+    margin-top: 70px; }
+  .form input {
+    height: 60px;
+    font-family: 'Montserrat';
+    color: black;
+    font-weight: 700;
+    text-align: left; }
+  .form .tell {
+    margin-top: 30px !important;
+    font-family: 'Montserrat';
+    background-color: #F4CF35;
+    padding: 20px;
+    margin: auto;
+    width: 160px;
+    color: white; }
+
+.circle {
+  border-radius: 100%;
+  border: 7px solid #FFFFFF;
+  margin-bottom: 20px; }
+
+hr {
+  transform: rotate(90deg);
+  width: 250px;
+  margin: auto;
+  height: 100%;
+  z-index: 1; }
+
+.circle-about {
+  margin-bottom: 50px;
+  border-radius: 100%;
+  background-color: #F1F1F1;
+  padding: 5px;
+  border-radius: 100%;
+  z-index: 5; }
+
+.circle-yellow {
+  background-color: #F4CF35;
+  border-radius: 100%;
+  width: 180px;
+  padding: 40px;
+  border-radius: 100%;
+  z-index: 5; }
+
+.col-lg-4 {
+  z-index: 5; }
+
+footer {
+  margin-top: 10px;
+  margin-bottom: 20px; }
+  footer p {
+    margin-top: 10px;
+    font-weight: bold; }
+  footer .social {
+    margin: auto !important;
+    text-align: center; }
+    footer .social .fa {
+      padding: 15px;
+      border-radius: 100%;
+      color: white;
+      background-color: #000000;
+      font-size: 10px !important;
+      margin-right: 20px; }
+  footer .yellow {
+    float: right;
+    color: #F4CF35;
+    font-weight: bold; }
+
+/*# sourceMappingURL=main.scss.map */
+
+/*# sourceMappingURL=main.css.map */
